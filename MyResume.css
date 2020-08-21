@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: : 0;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	padding: 1rem ;
+	margin-bottom: 2rem;
+}
+
+h3{
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: salmon;
+}
+
+html {
+	color: #333;
+	font-family: "Josefin Sans";
+	line-height: 1.5;
+}
+
+body{
+	padding:5rem;
+	background-color: gray;
+	background: linear-gradient(#dfe0db ,#fcebe1 );
+}
+
+p{
+	line-height: 1.5;	
+}
+
+section{
+	margin-top: 2rem;
+}
+
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+}
+
+.profile{
+	text-align: center;
+}
+
+.profile img {
+	border-radius: 9999px;
+	width: 15rem;
+	height: 15rem;
+}
+
+.profile p{
+	color: #888;
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
+}
+
+.contact ul{
+	margin-top: -2rem;
+}
+
+.contact li{
+	text-align: left;
+	text-transform: uppercase;
+	padding: 1rem;
+	color: #888;
+	border-bottom: 1px solid #888;
+	color: #888;
+	font-size: 0.8rem;
+}
+
+
+.skills > ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+.timeline .event + .event{
+	padding-top: 1rem; 
+}
+
+.timeline .event{
+	display: grid;
+	grid-template-columns: 5ch 1fr;
+}
+
+
+.content{
+	border-left: 1px solid #888;
+	padding-left: 1rem;
+	margin-left: 1rem;
+}
+
+.content > h3 + p{
+	margin-bottom: 1rem;
+}
+
+
+.resume_page{
+	display: grid;
+	grid-template-columns: 40% 1fr;
+	grid-gap: 5rem;
+	background-color: white;
+	padding: 2rem;
+	max-width: 1000px;
+	margin: auto;
+}
